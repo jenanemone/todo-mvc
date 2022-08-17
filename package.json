@@ -1,13 +1,12 @@
 {
   "name": "todolist-review-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Catalin Siegling",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -16,5 +15,14 @@
     "mongodb": "^3.6.5",
     "mongoose": "^5.12.3",
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ant-Acid/todo-mvc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ant-Acid/todo-mvc/issues"
+  },
+  "homepage": "https://github.com/Ant-Acid/todo-mvc#readme",
+  "description": ""
 }
